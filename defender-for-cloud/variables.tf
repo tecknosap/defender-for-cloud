@@ -8,11 +8,11 @@ variable "defender_for_cloud_endpoints" {
   default = {
     VirtualMachines        = false        
     AppServices            = false       
-    StorageAccounts        = false       
-    KeyVaults              = false   
+    StorageAccounts        = true    
+    KeyVaults              = true  
     Containers             = false       
     SqlServers             = false      
-    ResourceManager        = false       
+     
 
   }
 }
